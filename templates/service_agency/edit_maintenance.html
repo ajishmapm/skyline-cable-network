@@ -1,0 +1,58 @@
+{% extends "service_agency/service_header.html" %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<center xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<center>
+<form id="form1" name="form1" method="post" action="/edit_maintanance_post/{{ data['maintenance_id'] }}">
+  <table width="200" border="1">
+      <tr>
+      <th colspan="4">Skyline&nbsp;</td>
+
+    </tr>
+
+    <tr>
+      <td>name</td>
+      <td><label for="name"></label>
+      <input type="text" name="name" id="name" value="{{ data['maintenance_name'] }}" /></td>
+    </tr>
+    <tr>
+      <td>Ph number</td>
+      <th colspan="3">&nbsp;</td>
+
+        <input type="text" name="name2" id="name2" value="{{ data['ph_number'] }}"/>
+    </tr>
+    <tr>
+      <td>email</td>
+      <th colspan="3"><input type="text" name="name3" id="name3" value="{{ data['email'] }}"/>
+        &nbsp;</td>
+
+    </tr><tr>
+      <td>place</td>
+      <th colspan="3"><input type="text" name="name4" id="name4" value="{{ data['place'] }}"/>
+        &nbsp;</td>
+
+    </tr><tr>
+      <td>Area</td>
+      <th colspan="3"><input type="text" name="name5" id="name5" value="{{ data['area'] }}" />
+        &nbsp;</td>
+
+
+
+    </tr>
+      <tr>
+      <th colspan="4">&nbsp;</td>
+
+        <input type="submit" name="Add" id="submit" value="submit" />
+    </tr>
+  </table>
+</form>
+</body>
+</center>
+</html>
+{% endblock %}

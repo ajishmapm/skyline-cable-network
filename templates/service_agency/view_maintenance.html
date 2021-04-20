@@ -1,0 +1,41 @@
+
+{% extends "service_agency/service_header.html" %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<center>
+<h3>Skyline</h3><table width="310" border="1">
+  <tr>
+    <td>#</td>
+    <td>Name</td>
+    <td>gender</td>
+    <td>phone</td>
+    <td>email</td>
+    <td>area</td>
+    <td>&nbsp;</td>
+  </tr>
+    {% for i in data %}
+  <tr>
+    <td>&nbsp;{{ loop.index }}</td>
+    <td>&nbsp;{{ i['maintenance_name'] }}</td>
+    <td>{{ i['ph_number'] }}</td>
+    <td>&nbsp;{{ i['email'] }}</td>
+    <td>&nbsp;{{ i['place'] }}</td>
+    <td>{{ i['area'] }}</td>
+    <td><p><a href="/edit_maintenance/{{ i['maintenance_id'] }}">edit</a></p>
+    <p><a href="/delete_maintenance/{{ i['maintenance_id'] }}" onclick="return confirm('Do you want to delete')">delete</a></p>
+    </td>
+  </tr> {% endfor %}
+</table>
+</center>
+</body>
+
+
+</html>
+{% endblock %}

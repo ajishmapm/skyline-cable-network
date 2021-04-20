@@ -1,0 +1,31 @@
+
+{% extends "service_agency/service_header.html" %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h3>Skyline</h3>
+<table width="200" border="1" class="table table-striped">
+  <tr>
+    <td>#</td>
+    <td>Date</td>
+    <td>Notification</td>
+    <td>&nbsp;</td>
+  </tr>
+    {%  for i in data %}
+  <tr>
+    <td>{{ loop.index }}&nbsp;</td>
+    <td>&nbsp;{{ i['date'] }}</td>
+    <td>{{ i['notification'] }}&nbsp;</td>
+    <td><a href="/delete_notification/{{ i['notification_id'] }}" onclick="return confirm('Do you want to delete')">delete</a></td>
+  </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
+{% endblock %}

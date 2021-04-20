@@ -1,0 +1,40 @@
+{% extends "service_agency/service_header.html" %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<center>
+<h3>Skyline</h3><table width="500" border="0">
+  <tr>
+    <td>#</td>
+    <td>Package Name</td>
+    <td>Rate</td>
+    <td>validity</td>
+    <td>Channels</td>
+
+
+  </tr>
+    {% for i in data %}
+  <tr>
+    <td>&nbsp;{{ loop.index }}</td>
+    <td>&nbsp;{{ i['ch_package_name'] }}</td>
+    <td>{{ i['rate'] }}</td>
+    <td>&nbsp;{{ i['validity'] }}</td>
+    <td>&nbsp;{{ i['channel_name'] }}</td>
+
+    <td><p><a href="/edit_ch_package/{{ i['ch_package_id'] }}">edit</a></p>
+    <p><a href="/delete_channel_package/{{ i['ch_package_id'] }}" onclick="return confirm('Do you want to delete')">delete</a></p>
+    </td>
+  </tr> {% endfor %}
+</table>
+</center>
+</body>
+
+
+</html>
+{% endblock %}
