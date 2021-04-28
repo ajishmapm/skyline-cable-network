@@ -6,43 +6,42 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Untitled Document</title>
 </head>
+<div class="container">
 
 <body>
 <center>
 <form id="form1" name="form1" method="post" action="/add_cash_collector1">
-  <table width="200" border="1">
-    <tr>
-      <th colspan="4">Skyline&nbsp;</th>
-     
-    </tr>
+     <h1>Add Cash Collector</h1>
+  <table width="300" border="0">
+
     <tr>
       <td>Name</td>
-      <th colspan="3"><label for="name"></label>
-        <input type="text" name="name" id="name" />
+      <th colspan="3">
+        <input type="text" name="name" id="name" class="form-control" required />
         &nbsp;</th>
       
     </tr>
    <tr>
-      <td>Ph number</td>
-      <th colspan="3">&nbsp;<input type="text" name="name2" id="name2" /></th>
+      <td>Mobile</td>
+      <th colspan="3"><input type="text" name="name2" id="name2" class="form-control" required pattern="[0-9]{10}"/></th>
       
 
     </tr>
       <tr>
-      <td>email</td>
-      <th colspan="3"><input type="text" name="name3" id="name3" />
+      <td>Email id</td>
+      <th colspan="3"><input type="email" name="name3" id="name3" class="form-control" required/>
         &nbsp;</th>
       
     </tr>
       <tr>
-      <td>place</td>
-      <th colspan="3"><input type="text" name="name4" id="name4" />
+      <td>Place</td>
+      <th colspan="3"><input type="text" name="name4" id="name4"  class="form-control" required/>
         &nbsp;</th>
       
     </tr>
       <tr>
       <td>Area</td>
-      <th colspan="3"><input type="text" name="name5" id="name5" />
+      <th colspan="3"><input type="text" name="name5" id="name5" class="form-control" required/>
         &nbsp;</th>
 
 
@@ -51,7 +50,7 @@
 
     </tr>
     <tr align="center">
-  <th colspan="2">&nbsp;<input type="submit" name="Add" id="submit" value="Submit" /></th>
+  <th colspan="2">&nbsp;<input type="submit" name="Add" id="submit" value="Add" /></th>
       
 
 
@@ -60,5 +59,6 @@
 </form>
 </center>>
 </body>
+</div>
 </html>
 {% endblock %}

@@ -87,11 +87,44 @@ def channel_add_package():
     ch_package_name=request.form['ch_package']
     Rate=request.form['Rate']
     validity=request.form['Validity']
-    channel=request.form['chid']
+    channel=request.form.getlist('ch')
     db=Db()
-    query = db.insert("insert into channel_package VALUES ('','" + ch_package_name + "','"+ channel+ "' ,'"+Rate+"','"+ validity + "')")
+    ch_pkg_id = db.insert("insert into channel_package VALUES ('','" + ch_package_name + "','"+Rate+"','"+ validity + "')")
+    for chn in channel:
+        db.insert("insert into channels VALUES (null,'"+chn+"','"+str(ch_pkg_id)+"')")
     return '<script>alert("success");window.location="/add_channel"</script>'
 
+
+
+
+
+
+
+
+
+@app.route('/add_internet_package')
+def add_internet_package():
+    return render_template("service_agency/add_internet_package.html")
+
+
+
+@app.route('/internet_add_package',methods=['post'])
+def internet_add_package():
+    package_name=request.form['i_package_name']
+    rate=request.form['i_rate']
+    validity=request.form['i_validity']
+    speed=request.form['Speed']
+    db=Db()
+    query = db.insert("insert into internet_package VALUES ('','" + speed + "','" + rate + "','" + validity + "','" + package_name + "')")
+    return '<script>alert("success");window.location="/add_internet_package"</script>'
+
+
+
+@app.route('/view_internet_package')
+def view_internet_package():
+    db=Db()
+    qry=db.select("select * from internet_package")
+    return render_template("service_agency/view_internet_package.html",data=qry)
 
 
 
@@ -218,7 +251,7 @@ def workallocate_cashcollector2(i):
 
 
     db = Db()
-    qry = db.insert( "insert into cashcollector_work VALUES ('','" + area + "')")
+    qry = db.insert( "insert into cashcollector_work VALUES ('','" + area + "','"+i+"',curdate())")
     return '<script>alert("Updated Successfully");window.location="/view_work_allocated"</script>'
 
 
@@ -227,14 +260,9 @@ def workallocate_cashcollector2(i):
 @app.route('/view_work_allocated')
 def view_work_allocated():
     db=Db()
-    qry=db.select("select * from cashcollector_work")
-    return render_template("service_agency/view_cash_collector.html",data=qry)
+    qry=db.select("select * from cashcollector_work,cash_collector where cash_collector.cash_collector_id=cashcollector_work.cash_collector_id")
+    return render_template("service_agency/view_work_allocated.html",data=qry)
 
-@app.route('/delete_work_allocated/<i>')
-def delete_work_allocated(i):
-    db = Db()
-    qry=db.delete("delete from cashcollector_work where work_id='"+str(i)+"'")
-    return view_work_allocated()
 
 
 
@@ -247,8 +275,19 @@ def delete_work_allocated(i):
 @app.route('/view_channel_packages')
 def view_channel_packages():
     db=Db()
-    qry=db.select("select * from channel,channel_package WHERE channel_package.channel_id=channel.channel_id")
+    qry=db.select("select * from channel_package")
     return render_template("service_agency/view_channel_packages.html",data=qry)
+
+
+
+
+
+@app.route('/channels_in_package/<i>')
+def channels_in_package(i):
+    db=Db()
+    qry=db.select("select * from channels,channel where  ch_package_id='"+str(i)+"' and channels.channel_id=channel.channel_id ")
+    return render_template("service_agency/channels_in_package.html",data=qry)
+
 
 
 
@@ -266,6 +305,8 @@ def edit_ch_package(i):
     db=Db()
     qry=db.selectOne("select * from ch_package where  ch_package_id='"+str(i)+"' ")
     return render_template("service_agency/add_channel_package.html",data=qry)
+
+
 
 
 

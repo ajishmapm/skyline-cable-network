@@ -1,4 +1,3 @@
-
 {% extends "service_agency/service_header.html" %}
 {% block body %}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -10,27 +9,24 @@
 
 <body>
 <center>
-<h3>View work allocated</h3>
-<table width="500" border="0" class="table table-striped">
+<h3>Skyline</h3><table width="500" border="0">
+  <tr>
+    <td>#</td>
 
- <tr>
-
-
-    <td>Area</td>
-    <td>Name</td>
+    <td>Channels</td>
 
 
   </tr>
     {% for i in data %}
   <tr>
-
-    <td>{{ i['area'] }}</td>
-    <td>{{ i['cash_collctor_name'] }}</td>
-
+    <td>&nbsp;{{ loop.index }}</td>
+    <td>&nbsp;{{ i['channel_name'] }}</td>
 
   </tr> {% endfor %}
 </table>
+</center>
 </body>
-<center>
+
+
 </html>
 {% endblock %}
