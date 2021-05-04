@@ -11,32 +11,40 @@
 <center>
 <form id="form1" name="form1" method="post" action="add_maintenance1">
       <h1>Add maintenance</h1>
-  <table>
+  <table width="500" height="200">
 
     <tr>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+
+
       <td>Name</td>
 
-      <th colspan="3"><input type="text" name="name" id="name" class="form-control" required/></th>
+      <td colspan="3"><input type="text" name="name" id="name" class="form-control" required/></td>
     </tr>
     <tr>
       <td>Mobile</td>
 
-        <th colspan="3"><input type="text" name="name2" id="name2" class="form-control" required/></th>
+        <td colspan="3"><input type="text" name="name2" id="name2" class="form-control" required pattern="[0-9]{10}"/></td>
     </tr>
-    <tr>
-      <td>Email</td>
-      <th colspan="3"><input type="text" name="name3" id="name3" class="form-control" required/>
-        &nbsp;</th>
 
-    </tr><tr>
+      <tr>
+          <td colspan="3"> </td>
+      </tr>
+
+     <tr>
+      <td>Email id</td>
+      <th colspan="3"><input type="email" name="name3" id="name3" class="form-control" required/>
+     </td>
+
+    </tr>
+
+
+   <tr>
       <td>Place</td>
       <th colspan="3"><input type="text" name="name4" id="name4" class="form-control" required/>
         &nbsp;</th>
 
     </tr><tr>
-      <td>Post</td>
+      <th>Post</th>
       <th colspan="3"><input type="text" name="name5" id="name5" class="form-control" required/>
         &nbsp;</th>
 
@@ -46,7 +54,7 @@
       <tr align="center">
 
 
-        <th colspan="2"><input type="submit" name="Add" id="submit" value="Submit" />
+        <th colspan="2"><br><input type="submit" name="Add" id="submit" value="Add" class="btn btn-dark" />
     </tr>
   </table>
 </form>

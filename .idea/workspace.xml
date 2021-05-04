@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="156a250f-09eb-4ca0-a732-c736ebbb4846" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/service_agency/add_internet_package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/service_agency/channels_in_package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/service_agency/view_internet_package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cableoperator.py" afterPath="$PROJECT_DIR$/cableoperator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/add_cash_collector.html" afterPath="$PROJECT_DIR$/templates/service_agency/add_cash_collector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/add_channel.html" afterPath="$PROJECT_DIR$/templates/service_agency/add_channel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/add_channel_package.html" afterPath="$PROJECT_DIR$/templates/service_agency/add_channel_package.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/add_maintenance.html" afterPath="$PROJECT_DIR$/templates/service_agency/add_maintenance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/service_header.html" afterPath="$PROJECT_DIR$/templates/service_agency/service_header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/view_cash_collector.html" afterPath="$PROJECT_DIR$/templates/service_agency/view_cash_collector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/view_channel.html" afterPath="$PROJECT_DIR$/templates/service_agency/view_channel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/add_notification.html" afterPath="$PROJECT_DIR$/templates/service_agency/add_notification.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/view_channel_packages.html" afterPath="$PROJECT_DIR$/templates/service_agency/view_channel_packages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/view_maintenance.html" afterPath="$PROJECT_DIR$/templates/service_agency/view_maintenance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/view_notification.html" afterPath="$PROJECT_DIR$/templates/service_agency/view_notification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/view_work_allocated.html" afterPath="$PROJECT_DIR$/templates/service_agency/view_work_allocated.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/workallocate_cashcollector.html" afterPath="$PROJECT_DIR$/templates/service_agency/workallocate_cashcollector.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/service_agency/view_internet_package.html" afterPath="$PROJECT_DIR$/templates/service_agency/view_internet_package.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,26 +19,112 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/cableoperator$cableoperator.coverage" NAME="cableoperator Coverage Results" MODIFIED="1619490109399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/cableoperator$android.coverage" NAME="android Coverage Results" MODIFIED="1620076844368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cableoperator$cableoperator.coverage" NAME="cableoperator Coverage Results" MODIFIED="1620078522425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="add_channel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/service_agency/add_channel.html">
+      <file leaf-file-name="view_channel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/service_agency/view_channel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="73" />
+            <state relative-caret-position="527">
+              <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_channel.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/service_agency/view_channel.html">
+      <file leaf-file-name="service_header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/service_agency/service_header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="3417">
+              <caret line="201" column="54" lean-forward="false" selection-start-line="201" selection-start-column="54" selection-end-line="201" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cableoperator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cableoperator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="299" column="13" lean-forward="true" selection-start-line="299" selection-start-column="13" selection-end-line="299" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+                <marker date="1620078522269" expanded="true" signature="356:389" ph="select * fro... login" />
+                <marker date="1620078522269" expanded="true" signature="356:393" ph="select * fro... login" />
+                <marker date="1620078522269" expanded="true" signature="356:406" ph="select * fro... login" />
+                <marker date="1620078522269" expanded="true" signature="356:421" ph="select * fro... login" />
+                <marker date="1620078522269" expanded="true" signature="356:434" ph="select * fro... login" />
+                <marker date="1620078522269" expanded="true" signature="356:436" ph="select * fro... login" />
+                <marker date="1620078522269" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
+                <marker date="1620078522269" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
+                <marker date="1620078522269" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
+                <marker date="1620078522269" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
+                <marker date="1620078522269" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
+                <marker date="1620078522269" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
+                <marker date="1620078522269" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
+                <marker date="1620078522269" expanded="true" signature="1696:1767" ph="insert into cash_collector... " />
+                <marker date="1620078522269" expanded="true" signature="1696:1768" ph="insert into channel... " />
+                <marker date="1620078522269" expanded="true" signature="1929:1950" ph="select * fro... channel" />
+                <marker date="1620078522269" expanded="true" signature="2116:2165" ph="delete from " />
+                <marker date="1620078522269" expanded="true" signature="2280:2294" ph="select * fro... ch" />
+                <marker date="1620078522269" expanded="true" signature="2280:2301" ph="select * fro... channel" />
+                <marker date="1620078522269" expanded="true" signature="2696:2736" ph="insert into channel_package... " />
+                <marker date="1620078522269" expanded="true" signature="2696:2773" ph="insert into channel_package... " />
+                <marker date="1620078522269" expanded="true" signature="2696:2788" ph="insert into channel_package... " />
+                <marker date="1620078522269" expanded="true" signature="2696:2789" ph="insert into channel_package... " />
+                <marker date="1620078522269" expanded="true" signature="2696:2790" ph="insert into channel... " />
+                <marker date="1620078522269" expanded="true" signature="2696:2792" ph="insert into channel_package... " />
+                <marker date="1620078522269" expanded="true" signature="2836:2871" ph="insert into channels... " />
+                <marker date="1620078522269" expanded="true" signature="2836:2881" ph="insert into channels... " />
+                <marker date="1620078522269" expanded="true" signature="2836:2901" ph="insert into channels... " />
+                <marker date="1620078522269" expanded="true" signature="3397:3488" ph="insert into internet_package... " />
+                <marker date="1620078522269" expanded="true" signature="3397:3510" ph="insert into VALUES" />
+                <marker date="1620078522269" expanded="true" signature="3700:3714" ph="select * fro... channel" />
+                <marker date="1620078522269" expanded="true" signature="3700:3722" ph="select * fro... internet" />
+                <marker date="1620078522269" expanded="true" signature="3700:3730" ph="select * fro... internet_package" />
+                <marker date="1620078522269" expanded="true" signature="4076:4133" ph="insert into maintenance... " />
+                <marker date="1620078522269" expanded="true" signature="4312:4326" ph="select * fro... maintenance" />
+                <marker date="1620078522269" expanded="true" signature="4312:4338" ph="select * fro... notification" />
+                <marker date="1620078522269" expanded="true" signature="4521:4580" ph="delete from " />
+                <marker date="1620078522269" expanded="true" signature="5001:5095" ph="insert into add_maintenance... " />
+                <marker date="1620078522269" expanded="true" signature="5272:5297" ph="select * fro... maintenance" />
+                <marker date="1620078522269" expanded="true" signature="5476:5522" ph="delete from " />
+                <marker date="1620078522269" expanded="true" signature="5476:5533" ph="delete from " />
+                <marker date="1620078522269" expanded="true" signature="5663:5723" ph="select * fro... maintenance" />
+                <marker date="1620078522269" expanded="true" signature="6085:6210" ph="update maint... " />
+                <marker date="1620078522269" expanded="true" signature="6085:6212" ph="update maint... " />
+                <marker date="1620078522269" expanded="true" signature="6085:6216" ph="update maint... " />
+                <marker date="1620078522269" expanded="true" signature="6085:6244" ph="update maint... " />
+                <marker date="1620078522269" expanded="true" signature="6091:6210" ph="insert into maintenance... " />
+                <marker date="1620078522269" expanded="true" signature="6684:6698" ph="select * fro... cash_" />
+                <marker date="1620078522269" expanded="true" signature="6684:6702" ph="select * fro... cash" />
+                <marker date="1620078522269" expanded="true" signature="6684:6712" ph="select * fro... cash_collector" />
+                <marker date="1620078522269" expanded="true" signature="6900:6963" ph="delete from " />
+                <marker date="1620078522269" expanded="true" signature="7103:7131" ph="select * fro... cash_collector" />
+                <marker date="1620078522269" expanded="true" signature="7103:7168" ph="select * fro... cash_collector" />
+                <marker date="1620078522269" expanded="true" signature="7589:7632" ph="insert into cash_collector... " />
+                <marker date="1620078522269" expanded="true" signature="7589:7645" ph="insert into cashcollector_work... " />
+                <marker date="1620078522269" expanded="true" signature="7589:7647" ph="insert into cashcollector_work... " />
+                <marker date="1620078522269" expanded="true" signature="7589:7664" ph="insert into maintenance... " />
+                <marker date="1620078522269" expanded="true" signature="7589:7666" ph="insert into cash_collector... " />
+                <marker date="1620078522269" expanded="true" signature="7863:7986" ph="select * fro... cashcollector_work" />
+                <marker date="1620078522269" expanded="true" signature="8175:8204" ph="select * fro... channel" />
+                <marker date="1620078522269" expanded="true" signature="8391:8498" ph="select * fro... channels" />
+                <marker date="1620078522269" expanded="true" signature="8692:8752" ph="delete from " />
+                <marker date="1620078522269" expanded="true" signature="8893:8955" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_notification.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/service_agency/add_notification.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="105" lean-forward="true" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="105" />
               <folding />
             </state>
           </provider>
@@ -57,18 +133,38 @@
       <file leaf-file-name="add_maintenance.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/service_agency/add_maintenance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="51">
+              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_channel_package.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/service_agency/add_channel_package.html">
+      <file leaf-file-name="android.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="153">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding>
+                <element signature="e#1#57#0" expanded="true" />
+                <marker date="1620076814919" expanded="true" signature="295:373" ph="select * fro... login" />
+                <marker date="1620076814919" expanded="true" signature="1161:1190" ph="insert into login... " />
+                <marker date="1620076814919" expanded="true" signature="1161:1202" ph="insert into login... " />
+                <marker date="1620076814919" expanded="true" signature="1161:1223" ph="insert into login... " />
+                <marker date="1620076814919" expanded="true" signature="1251:1350" ph="insert into registration... " />
+                <marker date="1620076814919" expanded="true" signature="1251:1351" ph="insert into registration... " />
+                <marker date="1620076814919" expanded="true" signature="1251:1353" ph="insert into registration... " />
+                <marker date="1620076814919" expanded="true" signature="1732:1761" ph="select * fro... channel_package" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/flask/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="1935" column="0" lean-forward="false" selection-start-line="1935" selection-start-column="0" selection-end-line="1935" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,48 +173,18 @@
       <file leaf-file-name="view_channel_packages.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/service_agency/view_channel_packages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="77">
+              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_internet_package.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view_internet_package.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/service_agency/view_internet_package.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_internet_package.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/service_agency/add_internet_package.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_notification.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/service_agency/add_notification.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view_notification.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/service_agency/view_notification.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="286">
+              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -127,8 +193,8 @@
       <file leaf-file-name="add_cash_collector.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/service_agency/add_cash_collector.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="612">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="36" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -141,24 +207,21 @@
       <list>
         <option value="Flask Main" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>view_ca</find>
-      <find>workallocate_cashcollector</find>
       <find>add_channel_pa</find>
       <find>view_channel_</find>
       <find>delet</find>
-      <find>delete_channel_package</find>
       <find>add_channel_package</find>
       <find>add_ca</find>
       <find>work</find>
       <find>view_cas</find>
       <find>view_wo</find>
       <find>add_channel_</find>
-      <find>add_channel</find>
       <find>add_channel_pack</find>
       <find>view_chann</find>
       <find>channels_in</find>
@@ -170,12 +233,16 @@
       <find>internet</find>
       <find>view_internet_packages</find>
       <find>internet_add_package</find>
-      <find>view_internet_package</find>
       <find>add_internet_package</find>
       <find>view</find>
       <find>add_cash_collector</find>
       <find>view_wor</find>
       <find>creat</find>
+      <find>user_re</find>
+      <find>add_channel</find>
+      <find>login_post</find>
+      <find>view_internet_package</find>
+      <find>delete_channel_package</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,12 +255,10 @@
         <option value="$PROJECT_DIR$/DBConnection.py" />
         <option value="$PROJECT_DIR$/templates/service_agency/view.html" />
         <option value="$PROJECT_DIR$/templates/login_new.html" />
-        <option value="$PROJECT_DIR$/templates/service_agency/add_notification.html" />
         <option value="$PROJECT_DIR$/templates/service_agency/edit_maintenance.html" />
         <option value="$PROJECT_DIR$/templates/service_agency/edit_cash_collector.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/service_agency/channels_in_package.html" />
-        <option value="$PROJECT_DIR$/cableoperator.py" />
         <option value="$PROJECT_DIR$/templates/service_agency/service_header.html" />
         <option value="$PROJECT_DIR$/templates/service_agency/add_channel.html" />
         <option value="$PROJECT_DIR$/templates/service_agency/workallocate_cashcollector.html" />
@@ -201,13 +266,16 @@
         <option value="$PROJECT_DIR$/templates/service_agency/view_work_allocated.html" />
         <option value="$PROJECT_DIR$/templates/service_agency/view_cash_collector.html" />
         <option value="$PROJECT_DIR$/templates/service_agency/view_maintenance.html" />
-        <option value="$PROJECT_DIR$/templates/service_agency/add_maintenance.html" />
-        <option value="$PROJECT_DIR$/templates/service_agency/add_cash_collector.html" />
         <option value="$PROJECT_DIR$/templates/service_agency/add_internet_package.html" />
         <option value="$PROJECT_DIR$/templates/service_agency/add_channel_package.html" />
-        <option value="$PROJECT_DIR$/templates/service_agency/view_internet_package.html" />
-        <option value="$PROJECT_DIR$/templates/service_agency/view_channel_packages.html" />
         <option value="$PROJECT_DIR$/templates/service_agency/view_channel.html" />
+        <option value="$PROJECT_DIR$/templates/service_agency/add_notification.html" />
+        <option value="$PROJECT_DIR$/templates/service_agency/add_cash_collector.html" />
+        <option value="$PROJECT_DIR$/templates/service_agency/view_channel_packages.html" />
+        <option value="$PROJECT_DIR$/android.py" />
+        <option value="$PROJECT_DIR$/templates/service_agency/add_maintenance.html" />
+        <option value="$PROJECT_DIR$/cableoperator.py" />
+        <option value="$PROJECT_DIR$/templates/service_agency/view_internet_package.html" />
       </list>
     </option>
   </component>
@@ -225,7 +293,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -238,94 +306,13 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cableoperator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cableoperator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cableoperator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cableoperator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cableoperator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cableoperator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service_agency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cableoperator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cableoperator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cableoperator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cableoperator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="header" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/user/PycharmProjects/cableoperator/templates/login.html" />
+    <property name="SearchEverywhereHistoryKey" value="add&#9;FILE&#9;file://C:/Users/user/PycharmProjects/cableoperator/templates/service_agency/add_maintenance.html&#10;add_cash&#9;FILE&#9;file://C:/Users/user/PycharmProjects/cableoperator/templates/service_agency/add_cash_collector.html&#10;add_no&#9;FILE&#9;file://C:/Users/user/PycharmProjects/cableoperator/templates/service_agency/add_notification.html&#10;view_no&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -353,6 +340,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.cableoperator">
+    <configuration default="false" name="android" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cableoperator" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/android.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -520,12 +526,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.cableoperator" />
+      <item index="1" class="java.lang.String" itemvalue="Python.android" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.android" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -541,7 +556,7 @@
     <frame x="-2" y="11" width="1376" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24411765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24411765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -570,94 +585,92 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/android.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/android.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/service_agency/add_notification.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/service_agency/add_channel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="64" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cableoperator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
           <caret line="96" column="65" lean-forward="false" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
           <folding>
-            <element signature="e#0#56#0" expanded="false" />
-            <marker date="1619297551122" expanded="true" signature="356:389" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:393" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:406" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:421" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:434" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:436" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1764" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1765" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="1926:1947" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2113:2162" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="2277:2291" ph="select * fro... ch" />
-            <marker date="1619297551122" expanded="true" signature="2277:2298" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2693:2733" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2770" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2785" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2786" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2787" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2789" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2868" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2878" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2898" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3485" ph="insert into internet_package... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3507" ph="insert into VALUES" />
-            <marker date="1619297551122" expanded="true" signature="3697:3711" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="3697:3719" ph="select * fro... internet" />
-            <marker date="1619297551122" expanded="true" signature="3697:3727" ph="select * fro... internet_package" />
-            <marker date="1619297551122" expanded="true" signature="4073:4130" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="4309:4323" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="4309:4335" ph="select * fro... notification" />
-            <marker date="1619297551122" expanded="true" signature="4518:4577" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="4998:5092" ph="insert into add_maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="5269:5294" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="5473:5519" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5473:5530" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5660:5720" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="6082:6207" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6209" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6213" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6241" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6088:6207" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="6681:6695" ph="select * fro... cash_" />
-            <marker date="1619297551122" expanded="true" signature="6681:6699" ph="select * fro... cash" />
-            <marker date="1619297551122" expanded="true" signature="6681:6709" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="6897:6960" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="7100:7128" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7100:7165" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7586:7629" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7642" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7644" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7661" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7663" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7860:7983" ph="select * fro... cashcollector_work" />
-            <marker date="1619297551122" expanded="true" signature="8172:8201" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="8388:8495" ph="select * fro... channels" />
-            <marker date="1619297551122" expanded="true" signature="8689:8749" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="8874:8932" ph="select * fro... maintenance" />
+            <element signature="e#0#56#0" expanded="true" />
+            <marker date="1620078522269" expanded="true" signature="356:389" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:393" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:406" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:421" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:434" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:436" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1767" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1768" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="1929:1950" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2116:2165" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="2280:2294" ph="select * fro... ch" />
+            <marker date="1620078522269" expanded="true" signature="2280:2301" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2696:2736" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2773" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2788" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2789" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2790" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2792" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2871" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2881" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2901" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3488" ph="insert into internet_package... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3510" ph="insert into VALUES" />
+            <marker date="1620078522269" expanded="true" signature="3700:3714" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="3700:3722" ph="select * fro... internet" />
+            <marker date="1620078522269" expanded="true" signature="3700:3730" ph="select * fro... internet_package" />
+            <marker date="1620078522269" expanded="true" signature="4076:4133" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="4312:4326" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="4312:4338" ph="select * fro... notification" />
+            <marker date="1620078522269" expanded="true" signature="4521:4580" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5001:5095" ph="insert into add_maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="5272:5297" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="5476:5522" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5476:5533" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5663:5723" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="6085:6210" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6212" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6216" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6244" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6091:6210" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="6684:6698" ph="select * fro... cash_" />
+            <marker date="1620078522269" expanded="true" signature="6684:6702" ph="select * fro... cash" />
+            <marker date="1620078522269" expanded="true" signature="6684:6712" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="6900:6963" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="7103:7131" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7103:7168" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7589:7632" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7645" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7647" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7664" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7666" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7863:7986" ph="select * fro... cashcollector_work" />
+            <marker date="1620078522269" expanded="true" signature="8175:8204" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="8391:8498" ph="select * fro... channels" />
+            <marker date="1620078522269" expanded="true" signature="8692:8752" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="8893:8955" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -723,70 +736,70 @@
         <state relative-caret-position="1020">
           <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
           <folding>
-            <element signature="e#0#56#0" expanded="false" />
-            <marker date="1619297551122" expanded="true" signature="356:389" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:393" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:406" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:421" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:434" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:436" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1764" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1765" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="1926:1947" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2113:2162" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="2277:2291" ph="select * fro... ch" />
-            <marker date="1619297551122" expanded="true" signature="2277:2298" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2693:2733" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2770" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2785" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2786" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2787" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2789" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2868" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2878" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2898" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3485" ph="insert into internet_package... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3507" ph="insert into VALUES" />
-            <marker date="1619297551122" expanded="true" signature="3697:3711" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="3697:3719" ph="select * fro... internet" />
-            <marker date="1619297551122" expanded="true" signature="3697:3727" ph="select * fro... internet_package" />
-            <marker date="1619297551122" expanded="true" signature="4073:4130" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="4309:4323" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="4309:4335" ph="select * fro... notification" />
-            <marker date="1619297551122" expanded="true" signature="4518:4577" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="4998:5092" ph="insert into add_maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="5269:5294" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="5473:5519" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5473:5530" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5660:5720" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="6082:6207" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6209" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6213" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6241" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6088:6207" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="6681:6695" ph="select * fro... cash_" />
-            <marker date="1619297551122" expanded="true" signature="6681:6699" ph="select * fro... cash" />
-            <marker date="1619297551122" expanded="true" signature="6681:6709" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="6897:6960" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="7100:7128" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7100:7165" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7586:7629" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7642" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7644" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7661" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7663" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7860:7983" ph="select * fro... cashcollector_work" />
-            <marker date="1619297551122" expanded="true" signature="8172:8201" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="8388:8495" ph="select * fro... channels" />
-            <marker date="1619297551122" expanded="true" signature="8689:8749" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="8874:8932" ph="select * fro... maintenance" />
+            <element signature="e#0#56#0" expanded="true" />
+            <marker date="1620078522269" expanded="true" signature="356:389" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:393" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:406" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:421" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:434" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:436" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1767" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1768" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="1929:1950" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2116:2165" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="2280:2294" ph="select * fro... ch" />
+            <marker date="1620078522269" expanded="true" signature="2280:2301" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2696:2736" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2773" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2788" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2789" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2790" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2792" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2871" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2881" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2901" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3488" ph="insert into internet_package... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3510" ph="insert into VALUES" />
+            <marker date="1620078522269" expanded="true" signature="3700:3714" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="3700:3722" ph="select * fro... internet" />
+            <marker date="1620078522269" expanded="true" signature="3700:3730" ph="select * fro... internet_package" />
+            <marker date="1620078522269" expanded="true" signature="4076:4133" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="4312:4326" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="4312:4338" ph="select * fro... notification" />
+            <marker date="1620078522269" expanded="true" signature="4521:4580" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5001:5095" ph="insert into add_maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="5272:5297" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="5476:5522" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5476:5533" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5663:5723" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="6085:6210" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6212" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6216" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6244" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6091:6210" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="6684:6698" ph="select * fro... cash_" />
+            <marker date="1620078522269" expanded="true" signature="6684:6702" ph="select * fro... cash" />
+            <marker date="1620078522269" expanded="true" signature="6684:6712" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="6900:6963" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="7103:7131" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7103:7168" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7589:7632" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7645" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7647" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7664" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7666" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7863:7986" ph="select * fro... cashcollector_work" />
+            <marker date="1620078522269" expanded="true" signature="8175:8204" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="8391:8498" ph="select * fro... channels" />
+            <marker date="1620078522269" expanded="true" signature="8692:8752" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="8893:8955" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -831,70 +844,70 @@
         <state relative-caret-position="170">
           <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding>
-            <element signature="e#0#56#0" expanded="false" />
-            <marker date="1619297551122" expanded="true" signature="356:389" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:393" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:406" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:421" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:434" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:436" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1764" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1765" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="1926:1947" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2113:2162" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="2277:2291" ph="select * fro... ch" />
-            <marker date="1619297551122" expanded="true" signature="2277:2298" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2693:2733" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2770" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2785" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2786" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2787" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2789" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2868" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2878" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2898" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3485" ph="insert into internet_package... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3507" ph="insert into VALUES" />
-            <marker date="1619297551122" expanded="true" signature="3697:3711" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="3697:3719" ph="select * fro... internet" />
-            <marker date="1619297551122" expanded="true" signature="3697:3727" ph="select * fro... internet_package" />
-            <marker date="1619297551122" expanded="true" signature="4073:4130" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="4309:4323" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="4309:4335" ph="select * fro... notification" />
-            <marker date="1619297551122" expanded="true" signature="4518:4577" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="4998:5092" ph="insert into add_maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="5269:5294" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="5473:5519" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5473:5530" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5660:5720" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="6082:6207" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6209" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6213" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6241" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6088:6207" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="6681:6695" ph="select * fro... cash_" />
-            <marker date="1619297551122" expanded="true" signature="6681:6699" ph="select * fro... cash" />
-            <marker date="1619297551122" expanded="true" signature="6681:6709" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="6897:6960" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="7100:7128" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7100:7165" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7586:7629" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7642" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7644" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7661" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7663" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7860:7983" ph="select * fro... cashcollector_work" />
-            <marker date="1619297551122" expanded="true" signature="8172:8201" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="8388:8495" ph="select * fro... channels" />
-            <marker date="1619297551122" expanded="true" signature="8689:8749" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="8874:8932" ph="select * fro... maintenance" />
+            <element signature="e#0#56#0" expanded="true" />
+            <marker date="1620078522269" expanded="true" signature="356:389" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:393" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:406" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:421" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:434" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:436" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1767" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1768" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="1929:1950" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2116:2165" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="2280:2294" ph="select * fro... ch" />
+            <marker date="1620078522269" expanded="true" signature="2280:2301" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2696:2736" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2773" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2788" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2789" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2790" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2792" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2871" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2881" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2901" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3488" ph="insert into internet_package... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3510" ph="insert into VALUES" />
+            <marker date="1620078522269" expanded="true" signature="3700:3714" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="3700:3722" ph="select * fro... internet" />
+            <marker date="1620078522269" expanded="true" signature="3700:3730" ph="select * fro... internet_package" />
+            <marker date="1620078522269" expanded="true" signature="4076:4133" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="4312:4326" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="4312:4338" ph="select * fro... notification" />
+            <marker date="1620078522269" expanded="true" signature="4521:4580" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5001:5095" ph="insert into add_maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="5272:5297" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="5476:5522" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5476:5533" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5663:5723" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="6085:6210" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6212" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6216" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6244" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6091:6210" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="6684:6698" ph="select * fro... cash_" />
+            <marker date="1620078522269" expanded="true" signature="6684:6702" ph="select * fro... cash" />
+            <marker date="1620078522269" expanded="true" signature="6684:6712" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="6900:6963" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="7103:7131" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7103:7168" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7589:7632" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7645" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7647" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7664" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7666" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7863:7986" ph="select * fro... cashcollector_work" />
+            <marker date="1620078522269" expanded="true" signature="8175:8204" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="8391:8498" ph="select * fro... channels" />
+            <marker date="1620078522269" expanded="true" signature="8692:8752" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="8893:8955" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -911,70 +924,70 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#56#0" expanded="false" />
-            <marker date="1619297551122" expanded="true" signature="356:389" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:393" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:406" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:421" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:434" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:436" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1764" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1765" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="1926:1947" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2113:2162" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="2277:2291" ph="select * fro... ch" />
-            <marker date="1619297551122" expanded="true" signature="2277:2298" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2693:2733" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2770" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2785" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2786" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2787" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2789" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2868" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2878" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2898" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3485" ph="insert into internet_package... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3507" ph="insert into VALUES" />
-            <marker date="1619297551122" expanded="true" signature="3697:3711" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="3697:3719" ph="select * fro... internet" />
-            <marker date="1619297551122" expanded="true" signature="3697:3727" ph="select * fro... internet_package" />
-            <marker date="1619297551122" expanded="true" signature="4073:4130" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="4309:4323" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="4309:4335" ph="select * fro... notification" />
-            <marker date="1619297551122" expanded="true" signature="4518:4577" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="4998:5092" ph="insert into add_maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="5269:5294" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="5473:5519" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5473:5530" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5660:5720" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="6082:6207" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6209" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6213" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6241" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6088:6207" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="6681:6695" ph="select * fro... cash_" />
-            <marker date="1619297551122" expanded="true" signature="6681:6699" ph="select * fro... cash" />
-            <marker date="1619297551122" expanded="true" signature="6681:6709" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="6897:6960" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="7100:7128" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7100:7165" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7586:7629" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7642" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7644" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7661" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7663" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7860:7983" ph="select * fro... cashcollector_work" />
-            <marker date="1619297551122" expanded="true" signature="8172:8201" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="8388:8495" ph="select * fro... channels" />
-            <marker date="1619297551122" expanded="true" signature="8689:8749" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="8874:8932" ph="select * fro... maintenance" />
+            <element signature="e#0#56#0" expanded="true" />
+            <marker date="1620078522269" expanded="true" signature="356:389" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:393" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:406" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:421" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:434" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:436" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1767" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1768" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="1929:1950" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2116:2165" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="2280:2294" ph="select * fro... ch" />
+            <marker date="1620078522269" expanded="true" signature="2280:2301" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2696:2736" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2773" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2788" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2789" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2790" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2792" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2871" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2881" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2901" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3488" ph="insert into internet_package... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3510" ph="insert into VALUES" />
+            <marker date="1620078522269" expanded="true" signature="3700:3714" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="3700:3722" ph="select * fro... internet" />
+            <marker date="1620078522269" expanded="true" signature="3700:3730" ph="select * fro... internet_package" />
+            <marker date="1620078522269" expanded="true" signature="4076:4133" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="4312:4326" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="4312:4338" ph="select * fro... notification" />
+            <marker date="1620078522269" expanded="true" signature="4521:4580" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5001:5095" ph="insert into add_maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="5272:5297" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="5476:5522" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5476:5533" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5663:5723" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="6085:6210" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6212" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6216" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6244" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6091:6210" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="6684:6698" ph="select * fro... cash_" />
+            <marker date="1620078522269" expanded="true" signature="6684:6702" ph="select * fro... cash" />
+            <marker date="1620078522269" expanded="true" signature="6684:6712" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="6900:6963" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="7103:7131" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7103:7168" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7589:7632" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7645" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7647" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7664" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7666" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7863:7986" ph="select * fro... cashcollector_work" />
+            <marker date="1620078522269" expanded="true" signature="8175:8204" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="8391:8498" ph="select * fro... channels" />
+            <marker date="1620078522269" expanded="true" signature="8692:8752" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="8893:8955" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -991,70 +1004,70 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#56#0" expanded="false" />
-            <marker date="1619297551122" expanded="true" signature="356:389" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:393" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:406" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:421" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:434" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:436" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1764" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1765" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="1926:1947" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2113:2162" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="2277:2291" ph="select * fro... ch" />
-            <marker date="1619297551122" expanded="true" signature="2277:2298" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2693:2733" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2770" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2785" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2786" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2787" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2789" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2868" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2878" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2898" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3485" ph="insert into internet_package... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3507" ph="insert into VALUES" />
-            <marker date="1619297551122" expanded="true" signature="3697:3711" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="3697:3719" ph="select * fro... internet" />
-            <marker date="1619297551122" expanded="true" signature="3697:3727" ph="select * fro... internet_package" />
-            <marker date="1619297551122" expanded="true" signature="4073:4130" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="4309:4323" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="4309:4335" ph="select * fro... notification" />
-            <marker date="1619297551122" expanded="true" signature="4518:4577" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="4998:5092" ph="insert into add_maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="5269:5294" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="5473:5519" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5473:5530" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5660:5720" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="6082:6207" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6209" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6213" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6241" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6088:6207" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="6681:6695" ph="select * fro... cash_" />
-            <marker date="1619297551122" expanded="true" signature="6681:6699" ph="select * fro... cash" />
-            <marker date="1619297551122" expanded="true" signature="6681:6709" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="6897:6960" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="7100:7128" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7100:7165" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7586:7629" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7642" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7644" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7661" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7663" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7860:7983" ph="select * fro... cashcollector_work" />
-            <marker date="1619297551122" expanded="true" signature="8172:8201" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="8388:8495" ph="select * fro... channels" />
-            <marker date="1619297551122" expanded="true" signature="8689:8749" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="8874:8932" ph="select * fro... maintenance" />
+            <element signature="e#0#56#0" expanded="true" />
+            <marker date="1620078522269" expanded="true" signature="356:389" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:393" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:406" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:421" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:434" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:436" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1767" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1768" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="1929:1950" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2116:2165" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="2280:2294" ph="select * fro... ch" />
+            <marker date="1620078522269" expanded="true" signature="2280:2301" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2696:2736" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2773" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2788" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2789" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2790" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2792" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2871" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2881" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2901" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3488" ph="insert into internet_package... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3510" ph="insert into VALUES" />
+            <marker date="1620078522269" expanded="true" signature="3700:3714" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="3700:3722" ph="select * fro... internet" />
+            <marker date="1620078522269" expanded="true" signature="3700:3730" ph="select * fro... internet_package" />
+            <marker date="1620078522269" expanded="true" signature="4076:4133" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="4312:4326" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="4312:4338" ph="select * fro... notification" />
+            <marker date="1620078522269" expanded="true" signature="4521:4580" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5001:5095" ph="insert into add_maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="5272:5297" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="5476:5522" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5476:5533" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5663:5723" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="6085:6210" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6212" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6216" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6244" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6091:6210" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="6684:6698" ph="select * fro... cash_" />
+            <marker date="1620078522269" expanded="true" signature="6684:6702" ph="select * fro... cash" />
+            <marker date="1620078522269" expanded="true" signature="6684:6712" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="6900:6963" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="7103:7131" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7103:7168" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7589:7632" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7645" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7647" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7664" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7666" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7863:7986" ph="select * fro... cashcollector_work" />
+            <marker date="1620078522269" expanded="true" signature="8175:8204" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="8391:8498" ph="select * fro... channels" />
+            <marker date="1620078522269" expanded="true" signature="8692:8752" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="8893:8955" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -1144,86 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cableoperator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4471">
-          <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="false" />
-            <marker date="1619297551122" expanded="true" signature="356:389" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:393" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:406" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:421" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:434" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="356:436" ph="select * fro... login" />
-            <marker date="1619297551122" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1764" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="1693:1765" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="1926:1947" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2113:2162" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="2277:2291" ph="select * fro... ch" />
-            <marker date="1619297551122" expanded="true" signature="2277:2298" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="2693:2733" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2770" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2785" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2786" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2787" ph="insert into channel... " />
-            <marker date="1619297551122" expanded="true" signature="2693:2789" ph="insert into channel_package... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2868" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2878" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="2833:2898" ph="insert into channels... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3485" ph="insert into internet_package... " />
-            <marker date="1619297551122" expanded="true" signature="3394:3507" ph="insert into VALUES" />
-            <marker date="1619297551122" expanded="true" signature="3697:3711" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="3697:3719" ph="select * fro... internet" />
-            <marker date="1619297551122" expanded="true" signature="3697:3727" ph="select * fro... internet_package" />
-            <marker date="1619297551122" expanded="true" signature="4073:4130" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="4309:4323" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="4309:4335" ph="select * fro... notification" />
-            <marker date="1619297551122" expanded="true" signature="4518:4577" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="4998:5092" ph="insert into add_maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="5269:5294" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="5473:5519" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5473:5530" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="5660:5720" ph="select * fro... maintenance" />
-            <marker date="1619297551122" expanded="true" signature="6082:6207" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6209" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6213" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6082:6241" ph="update maint... " />
-            <marker date="1619297551122" expanded="true" signature="6088:6207" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="6681:6695" ph="select * fro... cash_" />
-            <marker date="1619297551122" expanded="true" signature="6681:6699" ph="select * fro... cash" />
-            <marker date="1619297551122" expanded="true" signature="6681:6709" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="6897:6960" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="7100:7128" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7100:7165" ph="select * fro... cash_collector" />
-            <marker date="1619297551122" expanded="true" signature="7586:7629" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7642" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7644" ph="insert into cashcollector_work... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7661" ph="insert into maintenance... " />
-            <marker date="1619297551122" expanded="true" signature="7586:7663" ph="insert into cash_collector... " />
-            <marker date="1619297551122" expanded="true" signature="7860:7983" ph="select * fro... cashcollector_work" />
-            <marker date="1619297551122" expanded="true" signature="8172:8201" ph="select * fro... channel" />
-            <marker date="1619297551122" expanded="true" signature="8388:8495" ph="select * fro... channels" />
-            <marker date="1619297551122" expanded="true" signature="8689:8749" ph="delete from " />
-            <marker date="1619297551122" expanded="true" signature="8874:8932" ph="select * fro... maintenance" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/service_agency/service_header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3417">
-          <caret line="201" column="54" lean-forward="false" selection-start-line="201" selection-start-column="54" selection-end-line="201" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/service_agency/workallocate_cashcollector.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1252,35 +1185,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/service_agency/add_notification.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/service_agency/add_channel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/service_agency/add_maintenance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/service_agency/add_cash_collector.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1288,7 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,7 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1308,26 +1214,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/service_agency/view_internet_package.html">
+    <entry file="file://$PROJECT_DIR$/templates/service_agency/view_channel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="527">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/service_agency/service_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3417">
+          <caret line="201" column="54" lean-forward="false" selection-start-line="201" selection-start-column="54" selection-end-line="201" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/service_agency/add_notification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="105" lean-forward="true" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/service_agency/add_cash_collector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="1935" column="0" lean-forward="false" selection-start-line="1935" selection-start-column="0" selection-end-line="1935" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#1#57#0" expanded="true" />
+            <marker date="1620076814919" expanded="true" signature="295:373" ph="select * fro... login" />
+            <marker date="1620076814919" expanded="true" signature="1161:1190" ph="insert into login... " />
+            <marker date="1620076814919" expanded="true" signature="1161:1202" ph="insert into login... " />
+            <marker date="1620076814919" expanded="true" signature="1161:1223" ph="insert into login... " />
+            <marker date="1620076814919" expanded="true" signature="1251:1350" ph="insert into registration... " />
+            <marker date="1620076814919" expanded="true" signature="1251:1351" ph="insert into registration... " />
+            <marker date="1620076814919" expanded="true" signature="1251:1353" ph="insert into registration... " />
+            <marker date="1620076814919" expanded="true" signature="1732:1761" ph="select * fro... channel_package" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/service_agency/add_maintenance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cableoperator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="299" column="13" lean-forward="true" selection-start-line="299" selection-start-column="13" selection-end-line="299" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+            <marker date="1620078522269" expanded="true" signature="356:389" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:393" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:406" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:421" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:434" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="356:436" ph="select * fro... login" />
+            <marker date="1620078522269" expanded="true" signature="1214:1264" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1277" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1289" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1301" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1310" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1311" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1214:1313" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1767" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="1696:1768" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="1929:1950" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2116:2165" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="2280:2294" ph="select * fro... ch" />
+            <marker date="1620078522269" expanded="true" signature="2280:2301" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="2696:2736" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2773" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2788" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2789" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2790" ph="insert into channel... " />
+            <marker date="1620078522269" expanded="true" signature="2696:2792" ph="insert into channel_package... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2871" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2881" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="2836:2901" ph="insert into channels... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3488" ph="insert into internet_package... " />
+            <marker date="1620078522269" expanded="true" signature="3397:3510" ph="insert into VALUES" />
+            <marker date="1620078522269" expanded="true" signature="3700:3714" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="3700:3722" ph="select * fro... internet" />
+            <marker date="1620078522269" expanded="true" signature="3700:3730" ph="select * fro... internet_package" />
+            <marker date="1620078522269" expanded="true" signature="4076:4133" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="4312:4326" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="4312:4338" ph="select * fro... notification" />
+            <marker date="1620078522269" expanded="true" signature="4521:4580" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5001:5095" ph="insert into add_maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="5272:5297" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="5476:5522" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5476:5533" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="5663:5723" ph="select * fro... maintenance" />
+            <marker date="1620078522269" expanded="true" signature="6085:6210" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6212" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6216" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6085:6244" ph="update maint... " />
+            <marker date="1620078522269" expanded="true" signature="6091:6210" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="6684:6698" ph="select * fro... cash_" />
+            <marker date="1620078522269" expanded="true" signature="6684:6702" ph="select * fro... cash" />
+            <marker date="1620078522269" expanded="true" signature="6684:6712" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="6900:6963" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="7103:7131" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7103:7168" ph="select * fro... cash_collector" />
+            <marker date="1620078522269" expanded="true" signature="7589:7632" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7645" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7647" ph="insert into cashcollector_work... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7664" ph="insert into maintenance... " />
+            <marker date="1620078522269" expanded="true" signature="7589:7666" ph="insert into cash_collector... " />
+            <marker date="1620078522269" expanded="true" signature="7863:7986" ph="select * fro... cashcollector_work" />
+            <marker date="1620078522269" expanded="true" signature="8175:8204" ph="select * fro... channel" />
+            <marker date="1620078522269" expanded="true" signature="8391:8498" ph="select * fro... channels" />
+            <marker date="1620078522269" expanded="true" signature="8692:8752" ph="delete from " />
+            <marker date="1620078522269" expanded="true" signature="8893:8955" ph="delete from " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/service_agency/view_channel_packages.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="77">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/service_agency/view_channel.html">
+    <entry file="file://$PROJECT_DIR$/templates/service_agency/view_internet_package.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="286">
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding />
         </state>
       </provider>

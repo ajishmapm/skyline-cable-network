@@ -27,7 +27,7 @@
     <td>&nbsp;{{ i['validity'] }}</td>
     <td>&nbsp;<p><a href="/channels_in_package/{{ i['ch_package_id'] }}">channels</a></p> </td>
 
-    <td><p><a href="/edit_ch_package/{{ i['ch_package_id'] }}">edit</a></p>
+    <td>
     <p><a href="/delete_channel_package/{{ i['ch_package_id'] }}" onclick="return confirm('Do you want to delete')">delete</a></p>
     </td>
   </tr> {% endfor %}

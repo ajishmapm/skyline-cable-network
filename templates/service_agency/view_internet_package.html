@@ -28,7 +28,11 @@
       <td>{{ i['i_validity'] }}&nbsp;</td>
    <td>{{ i['speed'] }}&nbsp;</td>
 
-  </tr>
+
+         <td>
+    <p><a href="/delete_internet_package/{{ i['int_package_id'] }}" onclick="return confirm('Do you want to delete')">delete</a></p>
+    </td>
+        </tr>
     {% endfor %}
 </table>
 </body>

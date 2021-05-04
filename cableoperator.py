@@ -44,6 +44,9 @@ def add_cash_collector1():
 
 
 
+
+
+
 @app.route('/add_channel')
 def add_channel():
     return render_template("service_agency/add_channel.html")
@@ -300,11 +303,16 @@ def delete_channel_package(i):
 
 
 
-@app.route('/edit_ch_package/<i>')
-def edit_ch_package(i):
-    db=Db()
-    qry=db.selectOne("select * from ch_package where  ch_package_id='"+str(i)+"' ")
-    return render_template("service_agency/add_channel_package.html",data=qry)
+
+@app.route('/delete_internet_package/<i>')
+def delete_internet_package(i):
+    db = Db()
+    qry=db.delete("delete from internet_package where int_package_id='"+str(i)+"'")
+    return view_internet_package()
+
+
+
+
 
 
 
